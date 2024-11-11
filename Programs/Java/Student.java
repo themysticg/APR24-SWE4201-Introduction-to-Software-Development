@@ -34,6 +34,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student ID: " + id + "\nName: " + name + "\nCourse: " + course;
+        return "Regents Student ID: " + id + "\nName: " + name + "\nCourse: " + course;
     }
 }
