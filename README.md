@@ -1,7 +1,7 @@
 # SWE4201: Introduction to Software Development - Portfolio README
 
 ## To do
-* [ ] Python Student Registration System
+* [x] Python Student Registration System
 
 * [ ] Python Structure Display
 
