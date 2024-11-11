@@ -27,12 +27,22 @@ public class Main {
                     String name = scanner.nextLine();
                     System.out.print("Enter Course: ");
                     String course = scanner.nextLine();
+
+                    // Show progress bar before adding student
+                    System.out.println("Adding student, please wait...");
+                    ProgressBar.showProgressBar(5);
+
                     system.addStudent(new Student(id, name, course));
                     break;
                 
                 case 2:
                     System.out.print("Enter Regents Student ID: ");
                     id = scanner.nextLine();
+
+                    // Show progress bar before retrieving student
+                    System.out.println("Retrieving information, please wait...");
+                    ProgressBar.showProgressBar(5);
+
                     Student student = system.getStudent(id);
                     if (student != null) {
                         System.out.println("Regents Student Details:");
@@ -49,10 +59,19 @@ public class Main {
                     name = scanner.nextLine();
                     System.out.print("Enter New Course: ");
                     course = scanner.nextLine();
+
+                    // Show progress bar before updating student
+                    System.out.println("Updating student, please wait...");
+                    ProgressBar.showProgressBar(5);
+
                     system.updateStudent(id, name, course);
                     break;
                 
                 case 4:
+                    // Show progress bar before displaying all students
+                    System.out.println("Loading all students, please wait...");
+                    ProgressBar.showProgressBar(5);
+
                     System.out.println("All Students:");
                     system.displayAllStudents();
                     break;
