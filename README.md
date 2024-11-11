@@ -19,7 +19,7 @@ This project demonstrates essential programming skills in Python and Java, inclu
 ## Table of Contents
 1. [Portfolio Item 1: Python Student Registration System](#portfolio-item-1)
 2. [Portfolio Item 2: Python Structure Display](#portfolio-item-2)
-3. [Portfolio Item 3: Java Student Record System](#portfolio-item-3)
+3. [Portfolio Item 3: Java Student Record System](/APR24-SWE4201-Introduction-to-Software-Development/tree/main/Programs/Java)
 4. [Portfolio Item 4: Critical Reflection](#portfolio-item-4)
 5. [Testing](#testing)
 6. [Conclusion and Reflection](#conclusion-and-reflection)
