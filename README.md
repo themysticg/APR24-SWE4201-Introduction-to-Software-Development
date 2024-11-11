@@ -3,7 +3,7 @@
 ## To do
 * [x] Python Student Registration System
 
-* [ ] Python Structure Display
+* [x] Python Structure Display
 
 * [ ] Java Student Record System
 
