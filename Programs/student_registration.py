@@ -1,10 +1,24 @@
-# student_registration.py
+import time
+import sys
 
 # Student Registration System
 # This program allows users to add, retrieve, and manage student information.
 
 # Dictionary to store student details
 students = {}
+
+def loading_bar(duration=5):
+    """
+    Displays a loading bar that completes in the specified duration.
+    """
+    bar_length = 20  # Number of steps in the loading bar
+    for i in range(bar_length + 1):
+        time.sleep(duration / bar_length)
+        percent = int((i / bar_length) * 100)
+        bar = '#' * i + '-' * (bar_length - i)
+        sys.stdout.write(f"\r[{bar}] {percent}%")
+        sys.stdout.flush()
+    print()  # Move to the next line after loading is done
 
 def add_student():
     """
@@ -23,6 +37,10 @@ def add_student():
         if not course:
             raise ValueError("Course cannot be empty.")
 
+        # Display loading bar for adding student data
+        print("Adding student data, please wait...")
+        loading_bar()
+
         # Store student details in the dictionary
         students[student_id] = {"Name": name, "Course": course}
         print(f"Student {name} has been successfully added!")
@@ -35,6 +53,11 @@ def retrieve_student():
     Retrieves information about a student by their ID.
     """
     student_id = input("Enter Student ID to retrieve information: ").strip()
+
+    # Display loading bar for retrieving student data
+    print("Retrieving information, please wait...")
+    loading_bar()
+
     if student_id in students:
         print("Student Details:")
         print(f"- ID: {student_id}")
