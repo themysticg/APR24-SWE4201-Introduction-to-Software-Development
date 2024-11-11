@@ -5,7 +5,7 @@
 
 * [x] Python Structure Display
 
-* [ ] Java Student Record System
+* [x] Java Student Record System
 
 * [ ] Critical Reflection
 
