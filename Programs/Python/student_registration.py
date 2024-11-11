@@ -25,11 +25,11 @@ def add_student():
     Adds a new student to the registration system.
     """
     try:
-        student_id = input("Enter Student ID: ").strip()
+        student_id = input("Enter Regents Student ID: ").strip()
         if not student_id or student_id in students:
             raise ValueError("Invalid ID or ID already exists.")
 
-        name = input("Enter Student Name: ").strip()
+        name = input("Enter Regents Student Name: ").strip()
         if not name:
             raise ValueError("Name cannot be empty.")
 
@@ -38,39 +38,39 @@ def add_student():
             raise ValueError("Course cannot be empty.")
 
         # Display loading bar for adding student data
-        print("Adding student data, please wait...")
+        print("Adding Regents student data, please wait...")
         loading_bar()
 
         # Store student details in the dictionary
         students[student_id] = {"Name": name, "Course": course}
-        print(f"Student {name} has been successfully added!")
+        print(f"Regents Student {name} has been successfully added!")
 
     except ValueError as ve:
         print(f"Error: {ve}")
 
 def retrieve_student():
     """
-    Retrieves information about a student by their ID.
+    Retrieves information about a Regents student by their ID.
     """
-    student_id = input("Enter Student ID to retrieve information: ").strip()
+    student_id = input("Enter Regents Student ID to retrieve information: ").strip()
 
     # Display loading bar for retrieving student data
     print("Retrieving information, please wait...")
     loading_bar()
 
     if student_id in students:
-        print("Student Details:")
+        print("Regents Student Details:")
         print(f"- ID: {student_id}")
         print(f"- Name: {students[student_id]['Name']}")
         print(f"- Course: {students[student_id]['Course']}")
     else:
-        print("Error: Student ID not found.")
+        print("Error: Regents Student ID not found.")
 
 def main():
     """
-    Main function to run the Student Registration System.
+    Main function to run the Regents Student Registration System.
     """
-    print("Welcome to the Student Registration System")
+    print("Welcome to the Regents Student Registration System")
     while True:
         print("\nOptions:")
         print("1. Add a New Student")
@@ -87,7 +87,7 @@ def main():
             print("Exiting the system. Goodbye!")
             break
         else:
-            print("Invalid option. Please choose again.")
+            print("Brother...you only have 3 options. Please choose FROM 1,2 OR 3 PLEASEEE.")
 
 # Run the program
 if __name__ == "__main__":
