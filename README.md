@@ -19,7 +19,11 @@ This project demonstrates essential programming skills in Python and Java, inclu
 ## Table of Contents
 1. [Portfolio Item 1: Python Student Registration System](#portfolio-item-1)
 2. [Portfolio Item 2: Python Structure Display](#portfolio-item-2)
-3. [Portfolio Item 3: Java Student Record System](https://github.com/themysticg/APR24-SWE4201-Introduction-to-Software-Development/blob/main/APR24-SWE4201-Introduction-to-Software-Development/tree/main/Programs/Java)
+3. **Portfolio Item 3: Java Student Record System:**
+    - [Main.java](/APR24-SWE4201-Introduction-to-Software-Development/blob/main/Programs/Java/Main.java)
+    - [ProgressBar.java](/APR24-SWE4201-Introduction-to-Software-Development/blob/main/Programs/Java/ProgressBar.java)
+    - [Student.java]()
+    - [StudentRecordSystem.java]()
 4. [Portfolio Item 4: Critical Reflection](#portfolio-item-4)
 5. [Testing](#testing)
 6. [Conclusion and Reflection](#conclusion-and-reflection)
@@ -43,6 +47,30 @@ This module contains functions for a student registration system, where student 
 - `student_registration.py`: Main Python script for the registration system.
 
 ---
+
+### Portfolio Item 2: Python Pattern Display
+This item demonstrates the generation of three distinct patterns using Python, showcasing the application of loops and control structures.
+
+Core Patterns:
+Increasing Triangle: A right-angled triangle where the number of * symbols increases with each row.
+Decreasing Triangle: A right-angled triangle where the number of * symbols decreases with each row.
+Symmetrical Triangle: A centered triangle with aligned * symbols.
+
+### How to Use
+1. Run the patterns.py script.
+The program will display the following patterns sequentially:
+Pattern (a): Increasing Triangle
+Pattern (b): Decreasing Triangle
+Pattern (c): Symmetrical Triangle
+Observe the console output to see the generated patterns.
+Design Explanation
+
+## Objective:
+Create visually appealing patterns using nested loops and simple arithmetic.
+
+## Key Features:
+Modular functions for each pattern for ease of maintenance and reuse.
+A main function to execute all patterns sequentially.
 
 ## Portfolio Item 2: Python Structure Display
 This item displays various Python structures.
