@@ -7,11 +7,11 @@
 
 * [x] Java Student Record System
 
-* [ ] Critical Reflection
+* [x] Critical Reflection
 
-* [ ] Testing
+* [x] Testing
 
-* [ ] Conclusion and Reflection
+* [x] Conclusion and Reflection
 
 ### Overview
 This project demonstrates essential programming skills in Python and Java, including algorithm design, systematic testing, and object-oriented principles. Each portfolio item aligns with specific software development concepts and demonstrates structured solutions to common challenges in managing and retrieving data.
@@ -19,7 +19,7 @@ This project demonstrates essential programming skills in Python and Java, inclu
 ## Table of Contents
 1. [Portfolio Item 1: Python Student Registration System](#portfolio-item-1)
 2. [Portfolio Item 2: Python Structure Display](#portfolio-item-2)
-3. **Portfolio Item 3: Java Student Record System:**
+3. [Portfolio Item 3: Java Student Record System](#portfolio-item-2)
     - [Main.java](/APR24-SWE4201-Introduction-to-Software-Development/blob/main/Programs/Java/Main.java)
     - [ProgressBar.java](/APR24-SWE4201-Introduction-to-Software-Development/blob/main/Programs/Java/ProgressBar.java)
     - [Student.java]()
